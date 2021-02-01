@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\78bdd3fae9474366a01e22d338be7ffb\\media-1.1.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\b8d65235e3b71504dc73c1dcd6e312e6\\core-1.2.0\\res\\layout\\notification_template_part_time.xml"
+    }
+]

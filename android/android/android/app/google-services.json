@@ -1,0 +1,227 @@
+{
+  "project_info": {
+    "project_number": "165429683269",
+    "firebase_url": "https://ru-faem-taxi.firebaseio.com",
+    "project_id": "ru-faem-taxi",
+    "storage_bucket": "ru-faem-taxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:cf4282983de0114ec9af2c",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:d4d1f38fe76dfe36c9af2c",
+        "android_client_info": {
+          "package_name": "com.example.taxiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:6d4a7ae90574c4fc",
+        "android_client_info": {
+          "package_name": "faem.ru.taxi.drive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:131458023157670cc9af2c",
+        "android_client_info": {
+          "package_name": "faem.ru.taxi.drive.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:2f270c04ae2b533f",
+        "android_client_info": {
+          "package_name": "ru.faem.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165429683269:android:895b163b418c7ce1c9af2c",
+        "android_client_info": {
+          "package_name": "ru.faem.client.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rsfzVN6EkwvEghTGCuPVCCMhm-Afrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165429683269-scvge7a9itvsmfnjffehln1dj4m9hc3e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165429683269-gn825uqek7g4os3r4hchpfuhtnt2nrnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.faem.taxi-client-ios-lite"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

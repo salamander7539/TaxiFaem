@@ -1,0 +1,4 @@
+com/sayegh/move_to_background/MoveToBackgroundPlugin.java
+ com.sayegh.move_to_background.MoveToBackgroundPlugin
+com/sayegh/move_to_background/BuildConfig.java
+ com.sayegh.move_to_background.BuildConfig

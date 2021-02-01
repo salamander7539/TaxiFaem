@@ -1,0 +1,4 @@
+com/notrait/deviceid/DeviceIdPlugin.java
+ com.notrait.deviceid.DeviceIdPlugin
+com/notrait/deviceid/BuildConfig.java
+ com.notrait.deviceid.BuildConfig

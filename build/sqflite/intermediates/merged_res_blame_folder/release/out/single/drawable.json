@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\sqflite\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\sqflite\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\sqflite\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\sqflite\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

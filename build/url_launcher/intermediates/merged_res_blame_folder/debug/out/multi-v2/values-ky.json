@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\AndroidApp\\FlutterWorkApps\\flutter_faem_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-ky\\values-ky.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\atali\\.gradle\\caches\\transforms-2\\files-2.1\\34d8e8e80ca0d73cae6b9b69b9f47e8e\\core-1.1.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
