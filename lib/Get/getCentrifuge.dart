@@ -9,7 +9,7 @@ Future<String> getCentrifugeToken() async {
     'Content-Type': 'application/json; charset=UTF-8',
     'Accept': 'application/json',
     'Source':'ios_client_app_1',
-    "ServiceName": 'faem_taxi',
+    'ServiceName': 'faem_taxi',
     'Authorization':'Bearer $newToken'
   });
   if (response.statusCode == 200) {

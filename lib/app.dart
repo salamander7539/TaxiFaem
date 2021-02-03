@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter_faem_app/Location/user_location.dart';
 import 'package:flutter_faem_app/Get/init_data.dart';
 import 'package:flutter_faem_app/Screens/main_map_screen.dart';
@@ -18,11 +16,7 @@ Position position;
 var globalCheck;
 SharedPreferences sharedPreferences;
 
-//Location location = new Location();
-
 bool _serviceEnabled;
-//PermissionStatus _permissionGranted;
-//LocationData locationData;
 
 class MyApp extends StatefulWidget {
   @override
@@ -43,17 +37,13 @@ class _MyAppState extends State<MyApp> {
 
   void getStartLocation() async {
     position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.best);
-    // print('lastPosition $lastPosition');
     setState(() {
       lat = position.latitude;
       lng = position.longitude;
     });
-    // await findAddress(double.parse(lat.toStringAsFixed(4)), double.parse(lng.toStringAsFixed(4)));
-    // print('Current location lat long ' + position.latitude.toString() + " - " + position.longitude.toString());
     final coordinates = new Coordinates(position.latitude, position.longitude);
     var addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
     first = addresses.first;
-    // print('${first.locality}, ${first.adminArea},${first.subLocality}, ${first.subAdminArea},${first.addressLine}, ${first.featureName},${first.thoroughfare}, ${first.subThoroughfare}');
   }
 
   checkLoginStatus() async {

@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:url_launcher/url_launcher.dart';
-
+import 'package:flutter_masked_text/flutter_masked_text.dart';
 import '../app.dart';
 import 'auth_code_screen.dart';
 
@@ -23,12 +23,14 @@ class AuthPhoneScreen extends StatefulWidget {
 }
 
 class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
-  final TextEditingController _phoneController = new TextEditingController();
-  MaskTextInputFormatter maskTextInputFormatter = MaskTextInputFormatter(
-      mask: "+7 ### ###-##-##", filter: {"#": RegExp(r'[0-9]')});
+  // final TextEditingController _phoneController = new TextEditingController();
+  // MaskTextInputFormatter maskTextInputFormatter = MaskTextInputFormatter(
+  //     mask: "+7 ### ###-##-##", filter: {"#": RegExp(r'[0-9]')});
+  var maskController = new MaskedTextController(mask: '+7 000 000-00-00');
+
 
   Color buttonPhoneColor, buttonPhoneTextColor;
-  bool buttonPhoneEnable, phoneWarning;
+  bool buttonPhoneEnable, phoneWarning, serviceWarning;
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
@@ -67,9 +69,16 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
   @override
   void initState() {
     super.initState();
+    maskController.beforeChange = (String previous, String next) {
+      if(maskController.text == '8') {
+        maskController.updateText('+7 ');
+      }
+      return true;
+    };
     buttonPhoneColor = Color(0xFFF3F3F3);
     buttonPhoneTextColor = Colors.black;
     phoneWarning = false;
+    serviceWarning = false;
     buttonPhoneEnable = true;
     var initializationSettingsAndroid =
         AndroidInitializationSettings('app_icon');
@@ -97,7 +106,6 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
 
   @override
   Widget build(BuildContext context) {
-
         return Scaffold(
           appBar: AppBar(
             bottom: PreferredSize(
@@ -145,9 +153,9 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                             fontSize: 20.0,
                           ),
                           textAlign: TextAlign.start,
-                          controller: _phoneController,
+                          controller: maskController,
                           autofocus: true,
-                          inputFormatters: [maskTextInputFormatter],
+                          // inputFormatters: [maskTextInputFormatter],
                           autocorrect: false,
                           keyboardType: TextInputType.phone,
                           decoration: InputDecoration(
@@ -183,6 +191,9 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                             ),
                           ),
                           onChanged: (String newPhone) {
+                            if(newPhone == '+7 8'){
+                              maskController.text = '+7';
+                            }
                             if (this.mounted) {
                               setState(() {
                                 phone = newPhone;
@@ -196,6 +207,7 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                                   buttonPhoneTextColor = Colors.black;
                                   buttonPhoneEnable = true;
                                   phoneWarning = false;
+                                  serviceWarning = false;
                                 }
                               });
                             }
@@ -208,6 +220,20 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                             child: Container(
                               child: Text(
                                 "Указан неверный номер",
+                                style: TextStyle(
+                                    color: Color(0xFFEE4D3F),
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Visibility(
+                          visible: serviceWarning,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Container(
+                              child: Text(
+                                "Ошибка 503",
                                 style: TextStyle(
                                     color: Color(0xFFEE4D3F),
                                     fontWeight: FontWeight.bold),
@@ -297,8 +323,9 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                                 ),
                               ),
                               onPressed: () async {
-                                if (_phoneController.text.length == 16) {
-                                  phone = "+7${maskTextInputFormatter.getUnmaskedText()}";
+                                if (maskController.text.length == 16) {
+                                  phone = phone.replaceAll('-', '');
+                                  phone = phone.replaceAll(' ', '');
                                   // print(phone);
                                   deviceId = await PlatformDeviceId.getDeviceId;
                                   print('Device' + deviceId);
@@ -307,15 +334,22 @@ class _AuthPhoneScreenState extends State<AuthPhoneScreen> {
                                     Navigator.push(context, MaterialPageRoute(builder: (context) => AuthCodeScreen()));
                                     if (this.mounted) {
                                       setState(() {
-                                        maskTextInputFormatter.formatEditUpdate(TextEditingValue(text: _phoneController.value.text, selection: TextSelection(baseOffset: 0, extentOffset: _phoneController.value.text.length)), TextEditingValue.empty);
-                                        _phoneController.value = TextEditingValue.empty;
+                                        // maskTextInputFormatter.formatEditUpdate(TextEditingValue(text: _phoneController.value.text, selection: TextSelection(baseOffset: 0, extentOffset: _phoneController.value.text.length)), TextEditingValue.empty);
+                                        maskController.value = TextEditingValue.empty;
                                       });
                                     }
-                                  } else {
+                                  } else if (authCode >= 500) {
+                                    setState(() {
+                                      // maskTextInputFormatter.formatEditUpdate(TextEditingValue(text: _phoneController.value.text, selection: TextSelection(baseOffset: 0, extentOffset: _phoneController.value.text.length)), TextEditingValue.empty);
+                                      maskController.value = TextEditingValue.empty;
+                                      serviceWarning = true;
+                                    });
+                                  }
+                                  else {
                                     if (this.mounted) {
                                       setState(() {
-                                        maskTextInputFormatter.formatEditUpdate(TextEditingValue(text: _phoneController.value.text, selection: TextSelection(baseOffset: 0, extentOffset: _phoneController.value.text.length)), TextEditingValue.empty);
-                                        _phoneController.value = TextEditingValue.empty;
+                                        // maskTextInputFormatter.formatEditUpdate(TextEditingValue(text: _phoneController.value.text, selection: TextSelection(baseOffset: 0, extentOffset: _phoneController.value.text.length)), TextEditingValue.empty);
+                                        maskController.value = TextEditingValue.empty;
                                         phoneWarning = true;
                                       });
                                     }

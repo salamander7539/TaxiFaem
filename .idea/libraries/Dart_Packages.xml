@@ -51,6 +51,13 @@
             </list>
           </value>
         </entry>
+        <entry key="bloc">
+          <value>
+            <list>
+              <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="boolean_selector">
           <value>
             <list>
@@ -293,6 +300,13 @@
           <value>
             <list>
               <option value="C:/src/flutter/packages/flutter/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="flutter_bloc">
+          <value>
+            <list>
+              <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/lib" />
             </list>
           </value>
         </entry>
@@ -1118,6 +1132,7 @@
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/autocomplete_textfield-1.7.3/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/autocomplete_textfield_modified-1.6.11/lib" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/bubble_bottom_bar-1.2.0/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/cached_network_image-2.5.0/lib" />
@@ -1152,6 +1167,7 @@
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-7.0.3/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11/lib" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blurhash-0.5.0/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_cache_manager-2.1.0/lib" />
       <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_image-3.0.0/lib" />

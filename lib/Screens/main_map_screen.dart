@@ -1,5 +1,6 @@
 import 'package:flutter_faem_app/Models/BuildRouteModel.dart';
 import 'package:flutter_faem_app/Models/FindAddressModel.dart';
+import 'package:flutter_faem_app/Models/MyOrdersList.dart';
 import 'package:flutter_faem_app/Post/build_route_way.dart';
 import 'package:flutter_faem_app/Post/find_address.dart';
 import 'package:flutter_faem_app/Post/find_special_address.dart';
@@ -25,7 +26,7 @@ class MapScreen extends StatefulWidget {
 
 PersistentBottomSheetController bottomSheetController;
 List<BuildRouteWay> coords;
-final GlobalKey<ScaffoldState> mainScaffoldKey = GlobalKey<ScaffoldState>();
+final GlobalKey<ScaffoldState> mapScaffoldKey = GlobalKey<ScaffoldState>();
 
 class _MapScreenState extends State<MapScreen> {
   MapController mapController;
@@ -131,7 +132,7 @@ class _MapScreenState extends State<MapScreen> {
         // print(polylineCoordinates);
         if(locationSnapshot.data.latitude != null) {
           return Scaffold(
-            key: mainScaffoldKey,
+            key: mapScaffoldKey,
             extendBodyBehindAppBar: true,
             appBar: AppBar(
               iconTheme: IconThemeData(color: Colors.black),

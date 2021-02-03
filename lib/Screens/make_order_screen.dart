@@ -471,7 +471,7 @@ class _MakeOrderState extends State<MakeOrder> {
                                       await createOrder(chosenServiceUuid);
                                       if(orderUuid != null) {
                                         Navigator.pop(context);
-                                        mainScaffoldKey.currentState
+                                        mapScaffoldKey.currentState
                                             .showBottomSheet((context) =>
                                             FindingCarPage());
                                       }
