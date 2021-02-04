@@ -39,9 +39,9 @@ class Centrifuge {
 
     subscription.publishStream.listen((event){
       var parsedJson = convert.jsonDecode(utf8.decode(event.data));
-      // showNotification(parsedJson);
-      // messageHandler(parsedJson);
-      print("STATUS TUT" + utf8.decode(event.data));
+      showNotification(parsedJson);
+      messageHandler(parsedJson);
+      print("STATUS TUT" + parsedJson);
     });
     subscription.subscribe();
   }
@@ -98,63 +98,63 @@ class Centrifuge {
         message['data']['notification_message'] = message['notification_message'];
       }
     }
-    print(message);
+    print("Cenrifuge $message");
 
 
-    // if (message.containsKey('data')) {
-    //   var data =  message['data'];
-    //   if(data.containsKey('tag')) {
-    //     switch (data['tag']){
-    //       case 'order_state' :
-    //         var payload = data['payload'];
-    //         String order_state = payload['state'];
-    //         String order_uuid = payload['order_uuid'];
-    //         OrderCheckingUpdater(order_uuid, order_state);
-    //         break;
-    //
-    //       case 'chat_message' :
-    //         var payload = data['payload'];
-    //         var message = ChatMessage.fromJson(payload);
-    //         if(chatKey.currentState != null){
-    //           chatKey.currentState.setState(() {
-    //             chatKey.currentState.chatMessageList.insert(0, new ChatMessageScreen(chatMessage: message, key: new ObjectKey(message)));
-    //           });
-    //         }
-    //         String order_uuid = message.order_uuid;
-    //         if(orderCheckingStates.containsKey(order_uuid)) {
-    //           if(orderCheckingStates[order_uuid].currentState != null) {
-    //             orderCheckingStates[order_uuid].currentState.setState(() {
-    //             });
-    //           }
-    //         }
-    //         break;
-    //
-    //       case 'chat_messages_read' :
-    //         var payload = data['payload'];
-    //         List<dynamic> messagesUuid = payload['messages_uuid'];
-    //         if(chatKey.currentState != null && chatKey.currentState.order_uuid == payload['order_uuid']){
-    //           messagesUuid.forEach((element) {
-    //             if(chatMessagesStates.containsKey(element)){
-    //               // ignore: invalid_use_of_protected_member
-    //               if(chatMessagesStates[element].currentState != null) {
-    //                 chatMessagesStates[element].currentState.setState(() {
-    //                   chatMessagesStates[element].currentState.chatMessage.ack = true;
-    //                 });
-    //               } else {
-    //                 chatKey.currentState.chatMessageList.forEach((message) {
-    //                   if(message.chatMessage.uuid == element) {
-    //                     message.chatMessage.ack = true;
-    //                     return;
-    //                   }
-    //                 });
-    //               }
-    //             }
-    //           });
-    //         }
-    //         break;
-    //     }
-    //   }
-    // }
+    if (message.containsKey('data')) {
+      var data =  message['data'];
+      if(data.containsKey('tag')) {
+        switch (data['tag']){
+          case 'order_state' :
+            var payload = data['payload'];
+            String order_state = payload['state'];
+            String order_uuid = payload['order_uuid'];
+            OrderCheckingUpdater(order_uuid, order_state);
+            break;
+
+          // case 'chat_message' :
+          //   var payload = data['payload'];
+          //   var message = ChatMessage.fromJson(payload);
+          //   if(chatKey.currentState != null){
+          //     chatKey.currentState.setState(() {
+          //       chatKey.currentState.chatMessageList.insert(0, new ChatMessageScreen(chatMessage: message, key: new ObjectKey(message)));
+          //     });
+          //   }
+          //   String order_uuid = message.order_uuid;
+          //   if(orderCheckingStates.containsKey(order_uuid)) {
+          //     if(orderCheckingStates[order_uuid].currentState != null) {
+          //       orderCheckingStates[order_uuid].currentState.setState(() {
+          //       });
+          //     }
+          //   }
+          //   break;
+          //
+          // case 'chat_messages_read' :
+          //   var payload = data['payload'];
+          //   List<dynamic> messagesUuid = payload['messages_uuid'];
+          //   if(chatKey.currentState != null && chatKey.currentState.order_uuid == payload['order_uuid']){
+          //     messagesUuid.forEach((element) {
+          //       if(chatMessagesStates.containsKey(element)){
+          //         // ignore: invalid_use_of_protected_member
+          //         if(chatMessagesStates[element].currentState != null) {
+          //           chatMessagesStates[element].currentState.setState(() {
+          //             chatMessagesStates[element].currentState.chatMessage.ack = true;
+          //           });
+          //         } else {
+          //           chatKey.currentState.chatMessageList.forEach((message) {
+          //             if(message.chatMessage.uuid == element) {
+          //               message.chatMessage.ack = true;
+          //               return;
+          //             }
+          //           });
+          //         }
+          //       }
+          //     });
+          //   }
+          //   break;
+        }
+      }
+    }
   }
 
 
@@ -169,7 +169,7 @@ class Centrifuge {
     var androidChannelSpecifics = AndroidNotificationDetails(
       'CHANNEL_ID',
       'CHANNEL_NAME',
-      "CHANNEL_DESCRIPTION",
+      'CHANNEL_DESCRIPTION',
       importance: Importance.Max,
       priority: Priority.High,
       playSound: true,

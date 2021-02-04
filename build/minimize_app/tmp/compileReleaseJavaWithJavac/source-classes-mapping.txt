@@ -1,2 +1,0 @@
-com/vanethos/minimize_app/BuildConfig.java
- com.vanethos.minimize_app.BuildConfig

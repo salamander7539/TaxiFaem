@@ -44,26 +44,26 @@
 24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 24-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\f12dca79636a85aa26d82d0279df803b\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
 24-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\f12dca79636a85aa26d82d0279df803b\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
-25
-26    <uses-feature
-26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-27        android:glEsVersion="0x00020000"
-27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-28        android:required="true" />
-28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-29    <uses-feature
-29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:12:5-14:36
-30        android:name="android.hardware.wifi"
-30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:13:9-45
-31        android:required="false" />
-31-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:14:9-33
-32
-33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-33-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:5-76
-33-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:22-73
-34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-34-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
-34-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+26
+27    <uses-feature
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:9:5-11:35
+28        android:glEsVersion="0x00020000"
+28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:10:9-41
+29        android:required="true" />
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:11:9-32
+30    <uses-feature
+30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:12:5-14:36
+31        android:name="android.hardware.wifi"
+31-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:13:9-45
+32        android:required="false" />
+32-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:14:9-33
+33
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+34-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:5-76
+34-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\52a10358a866fa943a99a8c8fcca4e80\jetified-mapbox-android-sdk-9.2.0\AndroidManifest.xml:18:22-73
 35    <!--
 36 io.flutter.app.FlutterApplication is an android.app.Application that
 37         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -427,93 +427,94 @@
 239-->[com.google.firebase:firebase-common:19.5.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\cf67fd0cf583a20908725d8759f7cca6\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 240            android:exported="false"
 240-->[com.google.firebase:firebase-common:19.5.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\cf67fd0cf583a20908725d8759f7cca6\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-241            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+241            android:initOrder="100" />
 241-->[com.google.firebase:firebase-common:19.5.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\cf67fd0cf583a20908725d8759f7cca6\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-242        <uses-library
-242-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-243            android:name="org.apache.http.legacy"
-243-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-244            android:required="false" />
-244-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-245
-246        <activity
-246-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-247            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-247-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-248            android:exported="false"
-248-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-249            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-249-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-250
-251        <receiver
-251-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
-252            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-252-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
-253            android:enabled="true"
-253-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
-254            android:exported="false" >
-254-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
-255        </receiver>
-256
-257        <service
-257-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
-258            android:name="com.google.android.gms.measurement.AppMeasurementService"
-258-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
-259            android:enabled="true"
-259-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
-260            android:exported="false" />
-260-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
-261        <service
-261-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
-262            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-262-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
-263            android:enabled="true"
-263-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
-264            android:exported="false"
-264-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
-265            android:permission="android.permission.BIND_JOB_SERVICE" />
-265-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
-266
-267        <meta-data
-267-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-268            android:name="com.google.android.gms.version"
-268-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-269            android:value="@integer/google_play_services_version" />
-269-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-270
-271        <provider
-271-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:18:9-22:39
-272            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-272-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:19:13-93
-273            android:authorities="com.example.flutter_faem_app.mapboxtelemetryinitprovider"
-273-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:20:13-79
+242
+243        <receiver
+243-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+244            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+244-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+245            android:enabled="true"
+245-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+246            android:exported="false" >
+246-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+247        </receiver>
+248
+249        <service
+249-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+250            android:name="com.google.android.gms.measurement.AppMeasurementService"
+250-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+251            android:enabled="true"
+251-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+252            android:exported="false" />
+252-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+253        <service
+253-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+254            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+254-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+255            android:enabled="true"
+255-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+257            android:permission="android.permission.BIND_JOB_SERVICE" />
+257-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\d12bc0b99b0eb3086e34474aa9128573\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+258
+259        <provider
+259-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:18:9-22:39
+260            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+260-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:19:13-93
+261            android:authorities="com.example.flutter_faem_app.mapboxtelemetryinitprovider"
+261-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:20:13-79
+262            android:exported="false"
+262-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:21:13-37
+263            android:initOrder="100" />
+263-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:22:13-36
+264
+265        <service
+265-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:24:9-26:72
+266            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+266-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:25:13-93
+267            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+267-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:26:13-69
+268        <uses-library
+268-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+269            android:name="org.apache.http.legacy"
+269-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+270            android:required="false" />
+270-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\62633cf62f6311e89a2728ece67636dd\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+271
+272        <activity
+272-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 274            android:exported="false"
-274-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:21:13-37
-275            android:initOrder="100" />
-275-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:22:13-36
+274-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\c04fa56a112c2bf683c88c07aca57fa3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 276
-277        <service
-277-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:24:9-26:72
-278            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
-278-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:25:13-93
-279            android:permission="android.permission.BIND_JOB_SERVICE" />
-279-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\eee122c5a24f94774c94899cbf97674a\jetified-mapbox-android-telemetry-5.0.1\AndroidManifest.xml:26:13-69
-280        <service
-280-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
-281            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-281-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
-282            android:exported="false"
-282-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
-283            android:permission="android.permission.BIND_JOB_SERVICE" >
-283-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
-284        </service>
-285
-286        <receiver
-286-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
-287            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-287-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
-288            android:exported="false" />
-288-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
-289    </application>
-290
-291</manifest>
+277        <meta-data
+277-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+278            android:name="com.google.android.gms.version"
+278-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+279            android:value="@integer/google_play_services_version" />
+279-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\b86d680b8b942c23f7d66395f3718a76\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+280
+281        <service
+281-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+282-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+283            android:exported="false"
+283-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" >
+284-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+285        </service>
+286
+287        <receiver
+287-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+288-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+289            android:exported="false" />
+289-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\atali\.gradle\caches\transforms-2\files-2.1\61d98de8fddcbca1e815add44e8519a7\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+290    </application>
+291
+292</manifest>

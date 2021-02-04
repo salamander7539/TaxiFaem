@@ -1,4 +1,0 @@
-com/lyokone/location_web/LocationWebPlugin.java
- com.lyokone.location_web.LocationWebPlugin
-com/lyokone/location_web/BuildConfig.java
- com.lyokone.location_web.BuildConfig

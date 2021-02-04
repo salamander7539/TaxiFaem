@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter_faem_app/Models/AuthCode.dart';
 import 'package:flutter_faem_app/Get/init_data.dart';
+import 'package:flutter_faem_app/Models/centrifuge.dart';
 import 'package:flutter_faem_app/tokenData/refresh_token.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
@@ -33,6 +34,7 @@ Future<AuthCodeData> loadAuthCodeData(String device_id, int code) async {
     await sharedPreferences.setString('refreshToken', '$refreshToken');
     print('ref: ' + refreshToken);
     await updateRefreshToken(refreshToken);
+    // await Centrifuge.connectToServer();
     await getInitData();
   } else {
     print('Request failed with status: ${response.statusCode}.');

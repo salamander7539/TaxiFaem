@@ -1,2 +1,0 @@
-com/amplitude/amplitude_flutter/BuildConfig.java
- com.amplitude.amplitude_flutter.BuildConfig

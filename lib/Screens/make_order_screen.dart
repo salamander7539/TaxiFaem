@@ -1,5 +1,6 @@
 import 'package:flutter_faem_app/Models/GetAllTariffModel.dart';
 import 'package:flutter_faem_app/Models/Options.dart';
+import 'package:flutter_faem_app/Models/centrifuge.dart';
 import 'package:flutter_faem_app/Post/create_order.dart';
 import 'package:flutter_faem_app/Post/get_tariff.dart';
 import 'package:flutter_faem_app/Post/post_all_tariff.dart';
@@ -469,6 +470,7 @@ class _MakeOrderState extends State<MakeOrder> {
                                     onPressed: () async {
                                       // await createOrder(chosenServiceUuid);
                                       await createOrder(chosenServiceUuid);
+                                      // await Centrifuge.connectToServer();
                                       if(orderUuid != null) {
                                         Navigator.pop(context);
                                         mapScaffoldKey.currentState
